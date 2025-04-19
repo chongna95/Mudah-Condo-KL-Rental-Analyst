@@ -1,5 +1,5 @@
 # 🏙️ Mudah-Condo-KL-Rental-Analyst
-A web scraping tool and dataset generator built with Python for analyzing **Kuala Lumpur condo/apartment rentals** on [Mudah.my](https://www.mudah.my/https://www.mudah.my/kuala-lumpur/apartment-condominium-for-rent). This tool helps you collect structured data like property name, area, size (sq.ft), and rental price (MYR) for data analytics purposes.
+A web scraping tool and dataset generator built with Python for analyzing **Kuala Lumpur condo/apartment rentals** on [Mudah.my](https://www.mudah.my/kuala-lumpur/apartment-condominium-for-rent). This tool helps you collect structured data like property name, area, size (sq.ft), and rental price (MYR) for data analytics purposes.
 
 ---
 
