@@ -43,10 +43,10 @@ The scraper:
 
 ## 📈 Output Sample
 
-| Property Name | Area       | Size (Squared Feet) | Rental (MYR) |
-|---------------|------------|---------------------|--------------|
-| 10 Mont Kiara	| Mont Kiara | 3720.0              | 14000.0      |
-| One KL        | KL City    | 3285.0              | 14000.0      |  
+| Property Name | Area       | Average Size (Squared Feet) | Average Rental (MYR) |
+|---------------|------------|-----------------------------|----------------------|
+| 10 Mont Kiara	| Mont Kiara | 3720.0                      | 14000.0              |
+| One KL        | KL City    | 3285.0                      | 14000.0              |  
 
 ---
 
@@ -71,6 +71,13 @@ The scraper:
 
 👉 [Open Notebook in Google Colab](https://colab.research.google.com/drive/1pXJ-3Cjf0Gy05Nbd-pj0_p0ilvblEJ_w#scrollTo=S3-0ELgXvUsr)
 
+---
+
+## 🧼 Notes
+
+- Scraper skips listings without size or price.  
+- Automatically removes values inside brackets (e.g. `Block 15,17`).  
+- Replaces missing values with `None`.  
 
 
 
