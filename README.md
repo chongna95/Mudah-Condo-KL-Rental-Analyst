@@ -13,7 +13,7 @@ A web scraping tool and dataset generator built with Python for analyzing **Kual
   - Rental in MYR
 - ✅ Cleans text with regex
 - ✅ Handles missing/null fields
-- ✅ Displays real-time progress bar using `tqdm`
+- ✅ Displays real-time **progress bar** using `tqdm`
 - ✅ Exports to CSV for further analysis
 
 ---
@@ -24,3 +24,56 @@ Install these via pip if you're running locally:
 
 ```bash
 pip install requests beautifulsoup4 pandas tqdm
+```
+
+---
+
+## 🛠 How It Works
+
+The scraper:
+
+**1.** Starts from page 1 of the KL rental listing page  
+**2.** Loops through each listing block  
+**3.** Extracts relevant info using `BeautifulSoup`  
+**4.** Cleans up fields (removes special characters, parentheses, etc.)  
+**5.** Continues until no more listings are found  
+**6.** Stores all data into a `pandas.DataFrame` and exports to `CSV`  
+
+---
+
+## 📈 Output Sample
+
+| Property Name | Area       | Size (Squared Feet) | Rental (MYR) |
+|---------------|------------|---------------------|--------------|
+| 10 Mont Kiara	| Mont Kiara | 3720.0              | 14000.0      |
+| One KL        | KL City    | 3285.0              | 14000.0      |  
+
+---
+
+## 📊 Use Cases
+
+- Rental trend analysis by area  
+- Price per sq.ft benchmarking  
+- Property name & area-based aggregation  
+- Dashboard integration (e.g., Tableau, Power BI)  
+- Real estate investment insights  
+
+---
+
+## 📁 Output File
+
+- CSV file saved as: `mudah_rental_data.csv`  
+- Stored in the same working directory  
+
+---
+
+## 🔗 Run in Colab
+
+👉 [Open Notebook in Google Colab](https://colab.research.google.com/drive/1pXJ-3Cjf0Gy05Nbd-pj0_p0ilvblEJ_w#scrollTo=S3-0ELgXvUsr)
+
+
+
+
+
+
+
