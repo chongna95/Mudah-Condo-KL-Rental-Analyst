@@ -37,8 +37,25 @@ The scraper:
 **2.** Loops through each listing block  
 **3.** Extracts relevant info using `BeautifulSoup`  
 **4.** Cleans up fields (removes special characters, parentheses, etc.)  
-**5.** Continues until no more listings are found  
-**6.** Stores all data into a `pandas.DataFrame` and exports to `CSV`  
+**5.** Continues until no more listings are found 
+**6.** Grouped by both Property Name and Area using `groupby()` and then the average of rental price `'Rental (MYR)'` and size `'Size (Squared Feet)'` is calculated using the `agg()` method  
+**7.** Stores all data into a `pandas.DataFrame` and exports to `CSV`  
+
+---
+
+## Breakdown of the Aggregation:
+
+**1.Grouping Data:**
+- The data is grouped by both `Property Name` and `Area` using `groupby()` and then the average of rental price `'Rental (MYR)'` and size `'Size (Squared Feet)'` is calculated using the `agg()` method.
+
+**2. Formatting:**
+- The rental prices and sizes are formatted with commas to make them more readable. For rental prices, we also round them to avoid decimals, and sizes are rounded similarly.
+
+**3. Dropping Rows with Missing Values:**
+- Before performing any groupings or calculations, rows that have missing rental prices or sizes are dropped to ensure that the analysis is accurate.
+
+**4. Output:**
+- The result shows the average rental price and size for each property and area, formatted with commas for better readability
 
 ---
 
@@ -46,8 +63,8 @@ The scraper:
 
 | Property Name | Area       | Average Size (Squared Feet) | Average Rental (MYR) |
 |---------------|------------|-----------------------------|----------------------|
-| 10 Mont Kiara	| Mont Kiara | 3720.0                      | 14000.0              |
-| One KL        | KL City    | 3285.0                      | 14000.0              |  
+| 10 Mont Kiara	| Mont Kiara | 3720                        | 14000                |
+| One KL        | KL City    | 3285                        | 14000                |  
 
 ---
 
@@ -70,7 +87,7 @@ The scraper:
 
 ## 🔗 Run in Colab
 
-👉 [Open Notebook in Google Colab](https://colab.research.google.com/drive/1pXJ-3Cjf0Gy05Nbd-pj0_p0ilvblEJ_w#scrollTo=S3-0ELgXvUsr)
+👉 [Open Notebook in Google Colab](https://colab.research.google.com/drive/1pXJ-3Cjf0Gy05Nbd-pj0_p0ilvblEJ_w#scrollTo=Qcq72-Zkg-rr))
 
 ---
 
