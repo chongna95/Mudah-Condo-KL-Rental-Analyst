@@ -40,8 +40,8 @@ The scraper:
 **2.** Loops through each listing block  
 **3.** Extracts relevant info using `BeautifulSoup`  
 **4.** Cleans up fields (removes special characters, parentheses, etc.)  
-**5.** Continues until no more listings are found 
-**6.** Grouped by both Property Name and Area using `groupby()` and then the average of rental price `'Rental (MYR)'` and size `'Size (Squared Feet)'` is calculated using the `agg()` method  
+**5.** Continues until no more listings are found  
+**6.** Grouped by both Property Name and Area using `groupby()` and then the average of rental price `'Rental (MYR)'` and size `'Size (Squared Feet)'` is calculated using the `agg()` method    
 **7.** Stores all data into a `pandas.DataFrame` and exports to `CSV`  
 
 ---
