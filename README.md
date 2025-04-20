@@ -61,10 +61,10 @@ The scraper:
 
 ## 📈 Output Sample
 
-| Property Name | Area       | Average Size (Squared Feet) | Average Rental (MYR) |
-|---------------|------------|-----------------------------|----------------------|
-| 10 Mont Kiara	| Mont Kiara | 3720                        | 14000                |
-| One KL        | KL City    | 3285                        | 14000                |  
+| Area          | Property Name | Average Rental (MYR) |Average Size (Squared Feet) |
+|---------------|---------------|----------------------|----------------------------|
+| Mont Kiara   	| 10 Mont Kiara | 14000                | 3720                       |
+| KL City       | One City      | 14000                | 3285                       |
 
 ---
 
