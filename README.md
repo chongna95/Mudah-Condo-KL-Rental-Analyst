@@ -80,7 +80,8 @@ The scraper:
 
 ## 📁 Output File
 
-- CSV file saved as: `mudah_rental_data.csv`  
+- CSV file (with average price and size) saved as: `mudah_rental_data.csv`
+- CSV file (without aggregtion) saved as: `rental(without aggregation).csv` 
 - Stored in the same working directory  
 
 ---
