@@ -2,6 +2,9 @@
 A web scraping tool and dataset generator built with Python for analyzing **Kuala Lumpur condo/apartment rentals** on [Mudah.my](https://www.mudah.my/kuala-lumpur/apartment-condominium-for-rent). This tool helps you collect structured data like property name, area, size (sq.ft), and rental price (MYR) for data analytics purposes.
 Afterward, group the data by property name and area, then calculate the average price and average size (sq.ft) for each group, to understand rental trends across different properties and areas.
 
+## 📊 Tableau
+[Tableau](https://public.tableau.com/shared/92XQ4N8T9?:display_count=n&:origin=viz_share_link)
+
 ---
 
 ## 🚀 Features
